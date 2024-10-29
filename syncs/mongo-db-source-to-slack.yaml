@@ -1,9 +1,11 @@
 model: mongo-db-source
 destination: slack
 config:
-  mode: table
+  body: ALL THE DATA
+  mode: csv
   channel: C07PD6QG8P8
   configVersion: 1
+  overrideConfig: {}
 schedule:
   type: manual
 schedulePaused: false
