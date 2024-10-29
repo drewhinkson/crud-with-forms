@@ -1,0 +1,21 @@
+model: source-airtable-model
+destination: google-sheets-destination-user-account
+config:
+  mode: mirror
+  mappings:
+    - to: Title
+      from: _recordId
+      type: standard
+    - to: Submitted By
+      from: Equipment Description
+      type: standard
+    - to: Priority
+      from: Serial Number
+      type: standard
+  sheetName: Sheet1
+  configVersion: 2
+  spreadsheetId: 1ErUinrdWsmGKCP9Sq3Zu8dTCgWczHwaAbGuAi4e6vaA
+  sheetSelection: input
+schedule:
+  type: manual
+schedulePaused: false

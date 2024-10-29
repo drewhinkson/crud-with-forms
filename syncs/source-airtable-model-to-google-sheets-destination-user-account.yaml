@@ -1,0 +1,21 @@
+model: source-airtable-model
+destination: google-sheets-destination-user-account
+config:
+  mode: mirror
+  mappings:
+    - to: Title
+      from: Equipment Description
+      type: standard
+    - to: Submitted By
+      from: Date Assigned
+      type: standard
+  sheetName: Sheet1
+  configVersion: 2
+  sheetSelection: select
+  spreadsheetInfo:
+    id: 1ErUinrdWsmGKCP9Sq3Zu8dTCgWczHwaAbGuAi4e6vaA
+    name: OAuth Google sheets
+    parent: 0AG9OeHXcd098Uk9PVA
+schedule:
+  type: manual
+schedulePaused: false

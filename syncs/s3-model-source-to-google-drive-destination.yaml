@@ -1,0 +1,18 @@
+model: s3-model-source
+destination: google-drive
+config:
+  mode: all
+  fileType: json
+  mappings: []
+  skipEmpty: true
+  existingDoc: true
+  documentInfo:
+    id: 1ErUinrdWsmGKCP9Sq3Zu8dTCgWczHwaAbGuAi4e6vaA
+    name: OAuth Google sheets
+    parent: 0AG9OeHXcd098Uk9PVA
+  configVersion: 0
+  overrideConfig: {}
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false

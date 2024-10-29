@@ -1,0 +1,9 @@
+model: mongo-db-source
+destination: slack
+config:
+  mode: table
+  channel: C07PD6QG8P8
+  configVersion: 1
+schedule:
+  type: manual
+schedulePaused: false

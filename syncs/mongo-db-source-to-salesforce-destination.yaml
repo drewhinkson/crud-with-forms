@@ -1,0 +1,18 @@
+model: mongo-db-source
+destination: salesforce-destination
+config:
+  mode: upsert
+  type: object
+  object: CampaignMember
+  mappings:
+    - to: Status
+      from: _id
+      type: standard
+  configVersion: 0
+  externalIdMapping:
+    to: Country
+    from: location
+    type: standard
+schedule:
+  type: manual
+schedulePaused: false

@@ -1,0 +1,20 @@
+model: google-source-airtable-destination
+destination: airtable
+config:
+  mode: upsert
+  baseId: appVplwhZcOwZGpJn
+  mappings:
+    - to: Equipment Description
+      from: Column2
+      type: standard
+    - to: Model
+      from: Column3
+      type: standard
+  tableName: Employee Equipment
+  configVersion: 0
+  externalIdMapping:
+    to: Serial Number
+    from: Column1
+schedule:
+  type: manual
+schedulePaused: false

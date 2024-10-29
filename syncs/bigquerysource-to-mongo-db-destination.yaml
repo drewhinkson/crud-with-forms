@@ -1,0 +1,42 @@
+model: bigquerysource
+destination: mongo-db-destination
+config:
+  mode: upsert
+  object: users
+  mappings:
+    - to: age
+      from: age
+      type: standard
+    - to: amount
+      from: amount
+      type: standard
+    - to: city
+      from: city
+      type: standard
+    - to: created_date
+      from: created_date
+      type: standard
+    - to: id
+      from: id
+      type: standard
+    - to: price
+      from: price
+      type: standard
+    - to: status
+      from: status
+      type: standard
+    - to: tax
+      from: tax
+      type: standard
+    - to: user_name
+      from: user_name
+      type: standard
+  configVersion: 0
+  overrideConfig: {}
+  autoSyncColumns: false
+  externalIdMapping:
+    to: _id
+    from: id
+schedule:
+  type: manual
+schedulePaused: false

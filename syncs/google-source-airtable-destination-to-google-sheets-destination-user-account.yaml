@@ -1,0 +1,13 @@
+model: google-source-airtable-destination
+destination: google-sheets-destination-user-account
+config:
+  mode: mirror
+  mappings: []
+  sheetName: Sheet1
+  configVersion: 2
+  spreadsheetId: 1ErUinrdWsmGKCP9Sq3Zu8dTCgWczHwaAbGuAi4e6vaA
+  sheetSelection: input
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false

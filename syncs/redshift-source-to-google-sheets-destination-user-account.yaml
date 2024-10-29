@@ -1,0 +1,70 @@
+model: redshift-source
+destination: google-sheets-destination-user-account
+config:
+  mode: mirror
+  mappings:
+    - to: city
+      from: city
+      type: standard
+    - to: email
+      from: email
+      type: standard
+    - to: firstname
+      from: firstname
+      type: standard
+    - to: lastname
+      from: lastname
+      type: standard
+    - to: likebroadway
+      from: likebroadway
+      type: standard
+    - to: likeclassical
+      from: likeclassical
+      type: standard
+    - to: likeconcerts
+      from: likeconcerts
+      type: standard
+    - to: likejazz
+      from: likejazz
+      type: standard
+    - to: likemusicals
+      from: likemusicals
+      type: standard
+    - to: likeopera
+      from: likeopera
+      type: standard
+    - to: likerock
+      from: likerock
+      type: standard
+    - to: likesports
+      from: likesports
+      type: standard
+    - to: liketheatre
+      from: liketheatre
+      type: standard
+    - to: likevegas
+      from: likevegas
+      type: standard
+    - to: phone
+      from: phone
+      type: standard
+    - to: state
+      from: state
+      type: standard
+    - to: userid
+      from: userid
+      type: standard
+    - to: username
+      from: username
+      type: standard
+  sheetName: OAuth Google sheets
+  configVersion: 2
+  overrideConfig: {}
+  sheetSelection: select
+  spreadsheetInfo:
+    id: 1ErUinrdWsmGKCP9Sq3Zu8dTCgWczHwaAbGuAi4e6vaA
+    name: OAuth Google sheets
+    parent: 0AG9OeHXcd098Uk9PVA
+schedule:
+  type: manual
+schedulePaused: false
