@@ -1,0 +1,77 @@
+# READ ONLY FILE
+# Changes made here will be ignored. Please use the Hightouch dashboard to create and edit sources and destinations.
+
+sources:
+  mongo-db-source:
+    name: MongoDBSource
+    type: mongodb
+  big-query:
+    name: BigQuery
+    type: bigquery
+  redshift:
+    name: Redshift
+    type: redshift
+  s3-source:
+    name: S3Source
+    type: s3
+  PostgreSQL-ad87c:
+    name: CSE Postgres Source
+    type: postgres
+  pc-761-snowflake_10:
+    name: Snowflake Database (CU52301.aws-us-east-2)
+    type: snowflake
+  microsoft-excel-source:
+    name: Microsoft Excel Source
+    type: microsoftexcel
+  o-auth-google-sheets:
+    name: OAuthGoogleSheets Source
+    type: googlesheets
+  google-sheets:
+    name: Google Sheets Source
+    type: googlesheets
+  b2-c-e-commerce:
+    name: B2C eCommerce
+    type: sample-data
+  b2-b-saa-s:
+    name: B2B SaaS
+    type: sample-data
+  airtable:
+    name: Airtable Source
+    type: airtable
+destinations:
+  mongo-db-destination:
+    name: MongoDBDestination
+    type: mongodb
+  salesforce-2:
+    name: Salesforce
+    type: salesforce
+  salesforce:
+    name: Salesforce
+    type: salesforce
+  salesforce-destination:
+    name: SalesforceDestination
+    type: salesforce
+  microsoft-excel-destination:
+    name: Microsoft Excel Destination
+    type: microsoft-excel
+  braze-destination:
+    name: BrazeDestination
+    type: braze
+  dropbox:
+    name: DropboxDestination
+    type: dropbox
+  airtable:
+    name: Airtable Destination
+    type: airtable
+  notion:
+    name: Notion Destination
+    type: notion
+  slack:
+    name: Slack Destination
+    type: slack
+  google-drive:
+    name: Google Drive Destination
+    type: googleDrive
+  google-sheets-destination-user-account:
+    name: GoogleSheetsDestination(UserAccount)
+    type: googlesheets
