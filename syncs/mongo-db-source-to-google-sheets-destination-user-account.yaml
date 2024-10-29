@@ -29,7 +29,7 @@ config:
       type: standard
     - to: _id
       type: variable
-      variable: current-timestamp
+      variable: operation
   sheetName: Sheet1
   configVersion: 2
   overrideConfig: {}
