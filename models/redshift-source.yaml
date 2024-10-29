@@ -1,0 +1,5 @@
+name: RedshiftSource
+source: redshift
+type: table
+tableName: public.users
+primaryKey: userid

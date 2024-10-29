@@ -1,0 +1,5 @@
+name: B2CSampleDataSource
+source: b2-c-e-commerce
+type: table
+tableName: public.customers
+primaryKey: customer_id

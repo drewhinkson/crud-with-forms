@@ -1,0 +1,5 @@
+name: Bigquerysource
+source: big-query
+type: table
+tableName: hightouchdata.table1_new
+primaryKey: id

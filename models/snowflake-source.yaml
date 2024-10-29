@@ -1,0 +1,5 @@
+name: SnowflakeSource
+source: pc-761-snowflake_10
+type: table
+tableName: PUBLIC.INVENTORY
+primaryKey: ID

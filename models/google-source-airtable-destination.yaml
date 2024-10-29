@@ -1,0 +1,8 @@
+name: GoogleSourceAirtableDestination
+source: o-auth-google-sheets
+description: GoogleSourceAirtableDestinationtest
+type: custom
+customQuery:
+  name: Sheet1
+  type: sheet
+primaryKey: PrimaryKey

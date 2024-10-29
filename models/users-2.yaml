@@ -1,0 +1,10 @@
+name: PostgresUsers
+source: PostgreSQL-ad87c
+type: raw_sql
+rawSql: |-
+  SELECT 
+    *,
+    CAST(lifetime_value AS FLOAT) AS lifetime_value_numeric
+  FROM warby_parker_demo.users
+tableName: warby_parker_demo.users
+primaryKey: id

@@ -1,0 +1,9 @@
+name: SourceAirtableModel
+source: airtable
+description: Airtable source
+type: custom
+customQuery:
+  type: table
+  baseId: appVplwhZcOwZGpJn
+  tableId: tblTVlqrdUQ4rtQMI
+primaryKey: _recordId

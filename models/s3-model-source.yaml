@@ -1,0 +1,9 @@
+name: S3ModelSource
+source: s3-source
+type: custom
+customQuery:
+  path: manifest.json
+  type: string
+  fileType: json
+  useLastModified: true
+primaryKey: id

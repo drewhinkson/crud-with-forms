@@ -1,0 +1,9 @@
+name: MongoDBSource
+source: mongo-db-source
+description: Source of MongoDB with sample data
+type: custom
+customQuery:
+  type: mongodb
+  database: Cluster0
+  collection: users
+primaryKey: _id
