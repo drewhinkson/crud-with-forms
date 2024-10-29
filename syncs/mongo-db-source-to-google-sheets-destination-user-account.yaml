@@ -28,8 +28,11 @@ config:
       from: user_name
       type: standard
     - to: _id
-      type: variable
-      variable: operation
+      from: _id
+      type: standard
+    - to: id
+      from: id
+      type: standard
   sheetName: Sheet1
   configVersion: 2
   overrideConfig: {}
