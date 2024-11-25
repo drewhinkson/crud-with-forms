@@ -15,4 +15,4 @@ config:
     type: standard
 schedule:
   type: manual
-schedulePaused: false
+schedulePaused: true
