@@ -1,0 +1,16 @@
+model: mongo-db-source
+destination: google-sheets-destination-user-account
+config:
+  mode: insert
+  mappings: []
+  sheetName: OAuth Google sheets
+  configVersion: 2
+  sheetSelection: select
+  autoSyncColumns: true
+  spreadsheetInfo:
+    id: 1ErUinrdWsmGKCP9Sq3Zu8dTCgWczHwaAbGuAi4e6vaA
+    name: OAuth Google sheets
+    parent: 0AG9OeHXcd098Uk9PVA
+schedule:
+  type: manual
+schedulePaused: false
