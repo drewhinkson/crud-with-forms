@@ -1,0 +1,24 @@
+model: mongo-db-source
+destination: http-request
+config:
+  add:
+    body: |-
+      {
+        "channel": "C12345678",
+        "text": "Hello, world!"
+      }
+    method: POST
+    enabled: true
+    onError: retryRequest
+    retries: 3
+    timeout: 30
+    bodyType: template
+    contentType: application/json
+    hasRateLimit: false
+  change: {}
+  remove: {}
+  skipFirstRun: true
+  configVersion: 1
+schedule:
+  type: manual
+schedulePaused: false
