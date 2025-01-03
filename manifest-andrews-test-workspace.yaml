@@ -39,6 +39,9 @@ sources:
     name: Airtable Source
     type: airtable
 destinations:
+  http-request:
+    name: HTTP Request
+    type: webhookV2
   mongo-db-destination:
     name: MongoDBDestination
     type: mongodb
